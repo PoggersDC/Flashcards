@@ -1,0 +1,33 @@
+.flashcard-set-creator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 60%;
+    max-width: 500px;
+}
+
+.flashcard-set-creator input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #dfe4ea;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.flashcard-set-creator button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.flashcard-set-creator button:hover {
+    background-color: #2980b9;
+}
